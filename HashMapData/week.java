@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class data4 {
+public class week {
     public static void main(String[] args)throws Exception {
         File file = new File("D:\\Projects\\Java-Files\\OOPS\\sales.txt");
         Scanner input = new Scanner(file);

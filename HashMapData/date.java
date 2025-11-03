@@ -3,7 +3,7 @@ package HashMapData;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class data5 {
+public class date {
     public static void main(String[] args) {
         LocalDate d1 = LocalDate.of(2025,11,9);
         DateTimeFormatter df1 = DateTimeFormatter.ofPattern("dd-MM-yyyy");

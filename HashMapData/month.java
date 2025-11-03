@@ -4,7 +4,7 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class data3 {
+public class month {
     public static void main(String[] args)throws Exception {
         File file = new File("D:\\Projects\\Java-Files\\OOPS\\sales.txt");
         Scanner input = new Scanner(file);
