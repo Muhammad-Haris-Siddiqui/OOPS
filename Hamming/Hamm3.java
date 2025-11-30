@@ -11,7 +11,7 @@ public class Hamm3{
             int f = 0;
             int k = i;
             while(f < start){
-                sum += msg[k++]
+                sum += msg[k++];
                 f++;
             }
 
