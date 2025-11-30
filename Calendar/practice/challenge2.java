@@ -15,18 +15,20 @@
 
             LocalDate date = LocalDate.of(year, month, 1);
             int weekday = date.getDayOfWeek().getValue();
+            
+            int totaldays = date.lengthOfMonth();
             String space = "   ".repeat(weekday - 1);
-
-            int num = date.lengthOfMonth();
 
             System.out.println("Mo Tu WE Th FR SA SU");
             System.out.print(space);
-            for(int i=1 ; i <= num ; i++){
+            for(int i=1 ; i <= totaldays ; i++){
                 if(weekday%7 == 1){
-                    System.out.println();
+                    System.out.println("");
                 }
-                System.out.print(String.format("%2d" , i) + " ");
-                weekday++;
+                else{
+                    System.out.print(String.format("%2d" , i) + " ");
+                    weekday++;
+                }
             }
         }
     }
